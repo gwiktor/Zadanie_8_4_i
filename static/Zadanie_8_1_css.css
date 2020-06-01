@@ -1,0 +1,21 @@
+.first {
+    border: 1px solid grey;
+    padding: 20px;
+    background: grey;
+    color: black;
+}
+.second {
+    color: darkblue;
+}
+p {
+    color:black;
+    font-size: 25px;
+}
+h2 {
+    color:black;
+    font-size: 25px;
+}
+li {
+    font-size: 20px;
+    margin-left: 30px;
+}
