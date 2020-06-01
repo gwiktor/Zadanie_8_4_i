@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>My first website</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='Zadanie_8_1_css.css')}}">
+    </head>
+    <body>
+        <h1 class=first>Witaj na stronie Kilera!!</h1>
+        <div clas="image-wrapper"></div>
+        <img src="{{url_for('static',filename='kiler.png')}}" alt="Kiler" title="Jerzy Kiler", width='256' height='144'>
+        </div>
+        <div id="content">{% block content %}{% endblock %}</div>
+    </body>
+</html>
